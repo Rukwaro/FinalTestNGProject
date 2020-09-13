@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15483" started-at="2020-09-13T18:01:31Z" finished-at="2020-09-13T18:01:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15483" started-at="2020-09-13T18:01:31Z" finished-at="2020-09-13T18:01:46Z">
+      <class name="test.MonthsDropDownTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:test.MonthsDropDownTest@42e26948]" name="launchBrowser" is-config="true" duration-ms="7105" started-at="2020-09-13T14:01:31Z" finished-at="2020-09-13T14:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="MonthDropDownList()[pri:0, instance:test.MonthsDropDownTest@42e26948]" name="MonthDropDownList" duration-ms="707" started-at="2020-09-13T14:01:38Z" finished-at="2020-09-13T14:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MonthDropDownList -->
+      </class> <!-- test.MonthsDropDownTest -->
+      <class name="test.AddCategoryTest">
+        <test-method status="PASS" signature="UserIsAbleToGoToSite()[pri:1, instance:test.AddCategoryTest@57baeedf]" name="UserIsAbleToGoToSite" duration-ms="7613" started-at="2020-09-13T14:01:39Z" finished-at="2020-09-13T14:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserIsAbleToGoToSite -->
+        <test-method status="PASS" signature="UserIsNotAbleToAddDuplicateCategory()[pri:2, instance:test.AddCategoryTest@57baeedf]" name="UserIsNotAbleToAddDuplicateCategory" duration-ms="21" started-at="2020-09-13T14:01:46Z" finished-at="2020-09-13T14:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserIsNotAbleToAddDuplicateCategory -->
+      </class> <!-- test.AddCategoryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
